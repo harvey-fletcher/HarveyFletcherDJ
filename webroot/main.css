@@ -1,0 +1,55 @@
+body, html{
+  margin: 0;
+  background-color: black;
+  background-image: url('https://wallpapertag.com/wallpaper/full/c/4/8/121773-club-background-3500x2000-download-free.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div.obscurity{
+  background-color: black;
+  
+  position: absolute;
+  left:     0;
+  right:    0;
+  
+  height: 100%;
+  width: 100%; 
+  
+  opacity: 0.7;
+  
+  z-index: 1;
+}
+
+div.links{
+  background-color: grey;
+  position: relative;
+  top: 10%;
+
+  opacity: 0.4;
+  
+  z-index: 2;
+  
+  width: 95%;
+  height: 5%;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.content{
+  background-color: grey;
+  position: relative;
+  top: 12%;
+
+  opacity: 0.4;
+  
+  z-index: 2;
+  
+  width: 95%;
+  height: 80%;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
