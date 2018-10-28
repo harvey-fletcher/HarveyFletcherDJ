@@ -25,7 +25,7 @@ div.obscurity{
 div.links{
   background-color: grey;
   position: relative;
-  top: 10%;
+  top: 5%;
 
   opacity: 0.4;
   
@@ -42,17 +42,48 @@ div.links{
   margin-right: auto;
 }
 
+div.button{
+  position: relative;
+	
+  width: 250px;
+  height: 50px;
+  
+  top: 12px;
+    
+  float: center;
+  display: inline-block;
+  
+  opacity: 1;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.buttons{
+  position: absolute;
+  top: 5%;  
+
+  left: 2.5%;
+  
+  float: left;
+  
+  width: 95%;
+  height: 75;
+  
+  z-index: 10;
+}
+
 div.content{
   background-color: grey;
   position: relative;
-  top: 12%;
+  top: 8%;
 
   opacity: 0.4;
   
   z-index: 2;
   
   width: 95%;
-  height: 75%;
+  height: 80%;
   
   margin-left: auto;
   margin-right: auto;
@@ -67,7 +98,7 @@ div.logoContainer{
   width: 325;
   height: 150;
   
-  top: 10%;
+  top: 5%;
   left: 1%;
   margin-top: -17;
 
@@ -76,10 +107,24 @@ div.logoContainer{
   z-index: 3;
 }
 
+img.small_button_icon{
+	width: 50;
+	height: 50;
+	
+	float: left;
+}
+
 img.logo{
   position: relative;
   display: inline-block;
   
   width: 244;
   height: 113;
+}
+
+h1.buttonText{
+  color: white;
+  float: left;
+  font-size: 30;
+  margin-top: 5;
 }
