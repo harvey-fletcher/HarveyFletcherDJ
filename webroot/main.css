@@ -31,8 +31,12 @@ div.links{
   
   z-index: 2;
   
+  border-radius: 50px 0px 0px 50px;
+  
   width: 95%;
-  height: 5%;
+  height: 75;
+  
+  vertical-align: center;
   
   margin-left: auto;
   margin-right: auto;
@@ -48,19 +52,34 @@ div.content{
   z-index: 2;
   
   width: 95%;
-  height: 80%;
+  height: 75%;
   
   margin-left: auto;
   margin-right: auto;
 }
 
-img.logo{
+div.logoContainer{
   position: absolute;
-  z-index: 3;
   
-  top: 4%;
-  left: 10;
-  
+  display: inline-block;
+  float: left;
+
   width: 325;
-  height: 150
+  height: 150;
+  
+  top: 10%;
+  left: 1%;
+  margin-top: -17;
+
+  overflow: display;  
+  
+  z-index: 3;
+}
+
+img.logo{
+  position: relative;
+  display: inline-block;
+  
+  width: 244;
+  height: 113;
 }

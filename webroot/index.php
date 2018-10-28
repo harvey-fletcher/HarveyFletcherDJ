@@ -8,9 +8,11 @@
     </head>
     <body>
 		<div class="obscurity">&nbsp;</div>
-		<img class="logo" src="/images/logo.png" />
+		<div class="logoContainer">
+			<img class="logo" src="/images/logo.png" />
+		</div>
 		<div class="links">
-			&nbsp;
+
 		</div>
 		<div class="content">
 			&nbsp;
