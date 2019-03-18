@@ -26,17 +26,7 @@
 			
 		</div>
 		<div class="contentNoBlur">
-			<b>Hi there!</b><br />
-			My name is Harvey, and I am a mobile DJ based in Newbury, Berkshire. If you're in need of someone to bring amazing entertainment to your party or event, I'm your guy!
-			<br /><br />
-			<img src='/images/image_of_setup.png' style='width: 400px; float: left; display: inline;' alt='image of my set up'/>
-			<div style='float: left; margin-left: 20px; width: calc( 95% - 400px ); auto; display: inline;'>
-				I've got the sound system to keep the tunes coming, the lights and a requests board, so I know what your guests want to hear played.
-				<br /><br />
-				My setup is portable, so I can travel to almost anywhere in the south of England, last year I travelled to Yeovil to DJ at the Yeovil Rugby Club Christmas Party.
-				<br /><br />
-				So if it's a birthday, wedding or any other kind of celebration that you need a disc jockey for, please get in touch with me on<br />0751 174 9870 or use the enquiry form on the website.
-			</div>
+			<h3>If you wish to make an enquiry, please call or text me on 0751 174 9870</h3>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type="text/javascript">

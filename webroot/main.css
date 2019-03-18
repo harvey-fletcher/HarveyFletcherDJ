@@ -56,7 +56,7 @@ div.button{
   opacity: 1;
   
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 25px;
 }
 
 div.buttons{
@@ -75,10 +75,11 @@ div.buttons{
 
 div.content{
   background-color: grey;
-  position: relative;
-  top: 8%;
+  position: absolute;
+  left: 2.5%;
+  top: 16%;
 
-  opacity: 0.4;
+  opacity: 0.7;
   
   z-index: 2;
   
@@ -87,6 +88,25 @@ div.content{
   
   margin-left: auto;
   margin-right: auto;
+}
+
+div.contentNoBlur{
+  position: absolute;
+  left: 2.5%;
+  top: 16%;
+  
+  z-index: 4;
+  
+  width: 95%;
+  height: 80%;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-left: 25px;
+  padding-top: 25px;
+
+  font-size: 25px;
 }
 
 div.logoContainer{
@@ -110,6 +130,7 @@ div.logoContainer{
 img.small_button_icon{
 	width: 50;
 	height: 50;
+	margin-right: 5;
 	
 	float: left;
 }
